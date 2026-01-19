@@ -12,6 +12,9 @@ public class Barco {
 		this.motor = motor;
 		this.capacidadCombustible = capacidadCombustible;
 	}
+	public double calcularAutonomia() {
+		return capacidadCombustible/motor.Consumo;
+	}
 	public String getNombre() {
 		return Nombre;
 	}

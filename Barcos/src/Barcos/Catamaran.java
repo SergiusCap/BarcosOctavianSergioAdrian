@@ -22,6 +22,12 @@ public class Catamaran extends Barco {
 		return "Catamaran [motorSecundario=" + motorSecundario + "]";
 	}
 
+	@Override
+	public double calcularAutonomia() {
+		// TODO Auto-generated method stub
+		return (capacidadCombustible/motor.Consumo+capacidadCombustible/motorSecundario.Consumo)/2;
+	}
+
 	
 	
 	
