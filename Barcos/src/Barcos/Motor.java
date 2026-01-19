@@ -6,11 +6,11 @@ public class Motor extends Barco {
 	protected int Potencia;
 	protected double Consumo;
 	public Motor(String modelo, int potencia, double consumo) {
-		super();
 		Modelo = modelo;
 		Potencia = potencia;
 		Consumo = consumo;
 	}
+	
 	public String getModelo() {
 		return Modelo;
 	}
