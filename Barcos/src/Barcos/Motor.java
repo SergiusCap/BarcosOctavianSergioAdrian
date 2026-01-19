@@ -1,8 +1,5 @@
 package Barcos;
 
-public class Motor {
-	
-	
-	
-	
+public class Motor extends Barco {
+
 }
