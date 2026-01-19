@@ -1,11 +1,12 @@
 package Barcos;
 
-public class Motor extends Barco {
+public class Motor  {
 
 	protected String Modelo;
 	protected int Potencia;
 	protected double Consumo;
 	public Motor(String modelo, int potencia, double consumo) {
+		
 		Modelo = modelo;
 		Potencia = potencia;
 		Consumo = consumo;
