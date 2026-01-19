@@ -5,7 +5,7 @@ public class Barco {
 
 	protected String Nombre;
 	protected Motor motor;
-	protected int capacidadCombustible;
+	protected double capacidadCombustible;
 	public Barco(String nombre, Motor motor, int capacidadCombustible) {
 		super();
 		Nombre = nombre;
@@ -24,10 +24,12 @@ public class Barco {
 	public void setMotor(Motor motor) {
 		this.motor = motor;
 	}
-	public int getCapacidadCombustible() {
+	
+	
+	public double getCapacidadCombustible() {
 		return capacidadCombustible;
 	}
-	public void setCapacidadCombustible(int capacidadCombustible) {
+	public void setCapacidadCombustible(double capacidadCombustible) {
 		this.capacidadCombustible = capacidadCombustible;
 	}
 	@Override
